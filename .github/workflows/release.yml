@@ -31,7 +31,8 @@ jobs:
           fi
 
       - name: Update version in control file
-        run: sed -i "s/^Version: .*/Version: $VERSION/" debian/DEBIAN/control
+        run: |
+          sed -i "s/^Version: .*/Version: $VERSION/" debian/DEBIAN/control
 
       - name: Commit changes
         run: |
