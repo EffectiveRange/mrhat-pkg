@@ -4,4 +4,4 @@ Architecture: all
 Maintainer: Ferenc Nandor Janky & Attila Gombos <info@effective-range.com>
 Homepage: www.effective-range.com
 Description: Umbrella Debian package for the MrHat related components.
-Depends: picprogrammer, mrhat-platform, mrhat-rx8130, mrhat-bq25622, mrhat-battery-simple, python3-mrhat-rtcwake, python3-mrhat-daemon, wifi-manager
+Depends: picprogrammer, fw-mrhat-pkg, mrhat-platform, mrhat-rx8130, mrhat-bq25622, mrhat-battery-simple, python3-mrhat-rtcwake, python3-mrhat-daemon, wifi-manager
